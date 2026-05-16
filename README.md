@@ -7,7 +7,7 @@ unsigned long long factorial(int n) {
     for (int i = 2; i <= n; i++)
         result *= i;
     return result;
-}```с
+}```
 
 взято из factorial.c
 Транслирую программу в Assembler с разными опциями оптимизации помощью команд:
