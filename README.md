@@ -19,6 +19,6 @@ gcc -S -O3 -o factorialO3.s factorial.c     -Агрессивная оптими
 gcc -S -Os -o factorialOs.s factorial.c     -Оптимизация по размеру кода
 
 main00 был разобран для задания и было указано циклы и тд.
-main_O0.s
-
+markdown
+```x86asm:main_O0.s
 
