@@ -194,3 +194,6 @@ clean-all: clean clean-asm   # Полная очистка: объектники
 
 Регистрируются обработчики сигналов (SIGINT, SIGTERM) для корректного освобождения ресурсов (разделяемой памяти и семафора) при прерывании программы.
 Функция cleanup отсоединяет и удаляет разделяемую память, закрывает и удаляет семафор.
+
+
+# LAB 2 https://drive.google.com/drive/folders/1HsgNtDyqvx2RNVIrjLb9Hetow79YDhBO?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto
