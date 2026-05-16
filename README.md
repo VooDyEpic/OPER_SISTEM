@@ -9,4 +9,16 @@ unsigned long long factorial(int n) {
     return result;
 }```
 
-fwefwef
+взято из factorial.c
+Транслирую программу в Assembler с разными опциями оптимизации помощью команд:
+
+gcc -S -O0 -o factorialO0.s factorial.c     -Без оптимизации
+gcc -S -O1 -o factorialO1.s factorial.c     -Базовая оптимизация
+gcc -S -O2 -o factorialO2.s factorial.c     -Средняя оптимизация
+gcc -S -O3 -o factorialO3.s factorial.c     -Агрессивная оптимизация
+gcc -S -Os -o factorialOs.s factorial.c     -Оптимизация по размеру кода
+
+main00 был разобран для задания и было указано циклы и тд.
+main_O0.s
+
+
