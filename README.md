@@ -120,12 +120,12 @@ main:
 
 # шаг 3
 структура проекта:
-проект/
+```проект/
 ├── Makefile          
 ├── main.c            # программа с fork()/pipe()
 ├── factorial.c       # реализация factorial()
 └── factorial.h       # заголовочный файл
-
+```
 Makefile
 ```
 CC = gcc                     # Компилятор: gcc
