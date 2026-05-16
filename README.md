@@ -17,8 +17,15 @@ gcc -S -O1 -o factorialO1.s factorial.c     -Базовая оптимизаци
 gcc -S -O2 -o factorialO2.s factorial.c     -Средняя оптимизация
 gcc -S -O3 -o factorialO3.s factorial.c     -Агрессивная оптимизация
 gcc -S -Os -o factorialOs.s factorial.c     -Оптимизация по размеру кода
-
+# 2 шаг
 main00 был разобран для задания и было указано циклы и тд.
-```markdown
+
 Полный код с оптимизацией O0 доступен в файле:  
-[`main_O0.s`](main_O0.s)
+#шаг 3
+структура проекта:
+проект/
+├── Makefile          # этот файл
+├── main.c            # программа с fork()/pipe()
+├── factorial.c       # реализация factorial()
+└── factorial.h       # заголовочный файл
+
