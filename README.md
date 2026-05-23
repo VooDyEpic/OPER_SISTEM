@@ -286,7 +286,8 @@ exit 0
 Создаст резервную копию всех фотографий в нужную папку
 <h2> Лабораторная 3Ь</h2>
 # код программы
-```param([string]$SourceDir)
+``` 
+param([string]$SourceDir)
 
 if (-not $SourceDir) {
     Write-Host "Ошибка: укажите путь к папке"
@@ -324,4 +325,5 @@ if ($counter -eq 0) {
 } else {
     Write-Host "Скопировано файлов: $counter"
     Write-Host "Бэкап создан: $BackupPath"
-}```
+} 
+```
