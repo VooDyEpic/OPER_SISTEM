@@ -1,6 +1,6 @@
 <h1>  Лаба 1</h1>
 написал код на С факториал числа
-``` bash
+```
 #include "factorial.h"
 unsigned long long factorial(int n) {
     unsigned long long result = 1;
